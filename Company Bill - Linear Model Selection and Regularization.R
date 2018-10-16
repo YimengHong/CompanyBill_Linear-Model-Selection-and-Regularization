@@ -1,5 +1,5 @@
 # Load data.
-CompanyBill=read.table("C:/Users/yimen/OneDrive/Documents/CompanyBill.txt",header=TRUE);
+CompanyBill=read.table(".../CompanyBill.txt",header=TRUE);
 CompanyBill=CompanyBill[-1,];
 # Delete the rows having missing data.
 CompanyBill[CompanyBill==0]=NA;
